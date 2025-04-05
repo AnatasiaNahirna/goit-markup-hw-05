@@ -19,7 +19,7 @@
       rel="stylesheet"
     />
   </head>
-  <bod>
+  <body>
     <header class="header">
       <div class="container header-div">
         <nav class="header-nav">
@@ -501,89 +501,82 @@
     </footer>
 
     <div class="backdrop">
-        <button class="form-close-btn">
-          <svg class="hero-form-close" width="8" height="8">
-            <use href="./images/icons.svg#iconclose-black-18dp-2-1"></use>
+      <button class="form-close-btn">
+        <svg class="hero-form-close" width="8" height="8">
+          <use href="./images/icons.svg#iconclose-black-18dp-2-1"></use>
+        </svg>
+      </button>
+      <p class="hero-form-p">Leave your contacts and we will call you back</p>
+
+      <div class="inp-div">
+        <label for="name-inp-name" class="form-label">Name</label>
+        <div class="for-icon-div">
+          <input type="text" id="name-inp-name" name="name" class="form-inp" />
+          <svg class="name-svg" width="18" height="18">
+            <use href="./images/icons.svg#iconperson"></use>
           </svg>
-        </button>
-        <p class="hero-form-p">Leave your contacts and we will call you back</p>
-
-          <div class="inp-div">
-            <label for="name-inp-name" class="form-label">Name</label>
-            <div class="for-icon-div">
-            <input
-              type="text"
-              id="name-inp-name"
-              name="name"
-              class="form-inp"
-            />
-            <svg class="name-svg" width="18" height="18">
-              <use href="./images/icons.svg#iconperson"></use>
-            </svg>
-            </div>
-          </div>
-
-          <div class="inp-div">
-            <label for="name-inp-tel" class="form-label">Phone</label>
-            <div class="for-icon-div">
-            <input type="tel"
-             id="name-inp-tel" 
-             name="phone" 
-             class="form-inp" />
-            <svg class="name-svg" width="18" height="18">
-              <use href="./images/icons.svg#iconphone"></use>
-            </svg>
-            </div>
-          </div>
-
-          <div class="inp-div">
-            <label for="name-inp-email" class="form-label">Email</label>
-            <div class="for-icon-div">
-            <input
-              type="email"
-              id="name-inp-email"
-              name="name"
-              class="form-inp"
-            />
-            <svg class="name-svg" width="18" height="18">
-              <use href="./images/icons.svg#iconemail"></use>
-            </svg>
-            </div>
-          </div>
-
-          <div class="inp-div">
-            <label for="text-area" class="form-label">Comment</label>
-            <textarea
-              type="text"
-              id="text-area"
-              name="comments"
-              class="comment-form"
-              placeholder="Text input"
-              ></textarea>
-              </div>
-
-              <div class="policy-div">
-                <input type="checkbox" 
-                name="policy-agree" 
-                id="policy-agree"
-                value="policy-agree" 
-                class="policy-checkbox visually-hidden">
-
-                <label for="policy-agree"
-                 class="policy-label form-label">
-                 <span class="checkbox">
-                  <svg class="policy-svg"" width="10" height="8">
-                    <use href="./images/icons.svg#iconVector"></use>
-                  </svg>
-                 </span>
-                 I accept the terms and conditions of the 
-                 <a href="" class="policy-link">Privacy Policy</a>
-                </label>
-              </div>
-
-              <div class="send-dtn-div">
-              <button type="submit" class="form-submit-btn">Send</button>
-              </div>
+        </div>
       </div>
+
+      <div class="inp-div">
+        <label for="name-inp-tel" class="form-label">Phone</label>
+        <div class="for-icon-div">
+          <input type="tel" id="name-inp-tel" name="phone" class="form-inp" />
+          <svg class="name-svg" width="18" height="18">
+            <use href="./images/icons.svg#iconphone"></use>
+          </svg>
+        </div>
+      </div>
+
+      <div class="inp-div">
+        <label for="name-inp-email" class="form-label">Email</label>
+        <div class="for-icon-div">
+          <input
+            type="email"
+            id="name-inp-email"
+            name="name"
+            class="form-inp"
+          />
+          <svg class="name-svg" width="18" height="18">
+            <use href="./images/icons.svg#iconemail"></use>
+          </svg>
+        </div>
+      </div>
+
+      <div class="inp-div">
+        <label for="text-area" class="form-label">Comment</label>
+        <textarea
+          type="text"
+          id="text-area"
+          name="comments"
+          class="comment-form"
+          placeholder="Text input"
+        ></textarea>
+      </div>
+
+      <div class="policy-div">
+        <input
+          type="checkbox"
+          name="policy-agree"
+          id="policy-agree"
+          value="policy-agree"
+          class="policy-checkbox visually-hidden"
+        />
+
+        <label for="policy-agree" class="policy-label form-label">
+          <span class="checkbox">
+            <svg class="policy-svg" width="10" height="8">
+              <use href="./images/icons.svg#iconVector"></use>
+            </svg>
+          </span>
+          I accept the terms and conditions of the
+          <a href="" class="policy-link">Privacy Policy</a>
+        </label>
+      </div>
+
+      <div class="send-dtn-div">
+        <button type="submit" class="form-submit-btn">Send</button>
+      </div>
+    </div>
   </body>
 </html>
