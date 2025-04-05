@@ -511,15 +511,15 @@
 
         <form class="hero-form-teg">
           <div class="inp-div">
-            <label for="name-inp-name" class="form-label">Name</label>
+            <label for="user-name" class="form-label">Name</label>
             <div class="for-icon-div">
               <input
                 type="text"
-                id="name-inp-name"
-                name="name"
+                id="user-name"
+                name="user-name"
                 class="form-inp"
               />
-              <svg class="name-svg" width="18" height="18">
+              <svg class="name-svg" width="18" height="24">
                 <use href="./images/icons.svg#iconperson"></use>
               </svg>
             </div>
@@ -534,7 +534,7 @@
                 name="phone"
                 class="form-inp"
               />
-              <svg class="name-svg" width="18" height="18">
+              <svg class="name-svg" width="18" height="24">
                 <use href="./images/icons.svg#iconphone"></use>
               </svg>
             </div>
@@ -549,17 +549,17 @@
                 name="name"
                 class="form-inp"
               />
-              <svg class="name-svg" width="18" height="18">
+              <svg class="name-svg" width="18" height="24">
                 <use href="./images/icons.svg#iconemail"></use>
               </svg>
             </div>
           </div>
 
           <div class="inp-div">
-            <label for="text-area" class="form-label">Comment</label>
+            <label for="user-comment" class="form-label area">Comment</label>
             <textarea
-              id="text-area"
-              name="comments"
+              id="user-comment"
+              name="user-comment"
               class="comment-form"
               placeholder="Text input"
             ></textarea>
@@ -568,13 +568,13 @@
           <div class="policy-div">
             <input
               type="checkbox"
-              name="policy-agree"
-              id="policy-agree"
-              value="policy-agree"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
               class="policy-checkbox visually-hidden"
             />
 
-            <label for="policy-agree" class="policy-label form-label">
+            <label for="user-privacy" class="policy-label form-label">
               <span class="checkbox">
                 <svg class="policy-svg" width="10" height="8">
                   <use href="./images/icons.svg#iconVector"></use>
@@ -585,9 +585,7 @@
             </label>
           </div>
 
-          <div class="send-dtn-div">
-            <button type="submit" class="form-submit-btn">Send</button>
-          </div>
+          <button type="submit" class="form-submit-btn">Send</button>
         </form>
       </div>
     </div>
