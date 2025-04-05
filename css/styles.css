@@ -717,16 +717,6 @@
     fill: transparent;
 }
 
-.policy-svg {
-    display: inline-flex;
-}
-
-.policy-label {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
 .policy-checkbox:checked + .policy-label .checkbox {
     background-color: #404BBF;
     border: none;
